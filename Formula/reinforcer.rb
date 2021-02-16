@@ -5,20 +5,20 @@
 class Reinforcer < Formula
   desc "A codegen tool for easy adoption of resiliency patterns in Go"
   homepage "https://github.com/csueiras/reinforcer"
-  version "0.3.3-alpha"
+  version "0.4.0-alpha"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/csueiras/reinforcer/releases/download/v0.3.3-alpha/reinforcer_0.3.3-alpha_Darwin_x86_64.tar.gz"
-    sha256 "8c0300612b62378346a88aa0e05cb0b2b090e09c09503f04ffa1bf83a7320dcd"
+    url "https://github.com/csueiras/reinforcer/releases/download/v0.4.0-alpha/reinforcer_0.4.0-alpha_Darwin_x86_64.tar.gz"
+    sha256 "73a475e2c5039c6effcba1934c38b57300df747912c3d9e0e5dcf31a39ff5e7a"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/csueiras/reinforcer/releases/download/v0.3.3-alpha/reinforcer_0.3.3-alpha_Linux_x86_64.tar.gz"
-    sha256 "597a6dce77776d56adcfb230ecb3601ab033426e76ce542f2105092fad726eee"
+    url "https://github.com/csueiras/reinforcer/releases/download/v0.4.0-alpha/reinforcer_0.4.0-alpha_Linux_x86_64.tar.gz"
+    sha256 "15a6530402a30f776d18d2ccdf2ff8d0a64a4344dce1e8a47386283c8553d779"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/csueiras/reinforcer/releases/download/v0.3.3-alpha/reinforcer_0.3.3-alpha_Linux_arm64.tar.gz"
-    sha256 "15720923556e3cb44e6b19cbc0861c2b8d70af0eb5d34b8497160b16f9f8d29b"
+    url "https://github.com/csueiras/reinforcer/releases/download/v0.4.0-alpha/reinforcer_0.4.0-alpha_Linux_arm64.tar.gz"
+    sha256 "d94d8450ae6e9cfff27e7381c5678c7b77814df9b5cbdb8a38103c631d2e126b"
   end
 
   def install
