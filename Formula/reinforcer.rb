@@ -5,16 +5,16 @@
 class Reinforcer < Formula
   desc "Codegen tool for easy adoption of resiliency patterns in Go"
   homepage "https://github.com/csueiras/reinforcer"
-  version "0.6.0"
+  version "0.7.0"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/csueiras/reinforcer/releases/download/v0.6.0/reinforcer_0.6.0_Darwin_x86_64.tar.gz"
-    sha256 "d2861c3af7168993062a904bfcf2c178c5908ae6640961863fa514a20aa7446d"
+    url "https://github.com/csueiras/reinforcer/releases/download/v0.7.0/reinforcer_0.7.0_Darwin_x86_64.tar.gz"
+    sha256 "43a0f348fc5e0170bd60e293ca5e79f0409bfff6c37b27ab741566292ed2a3e7"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/csueiras/reinforcer/releases/download/v0.6.0/reinforcer_0.6.0_Linux_x86_64.tar.gz"
-    sha256 "3f054b8a2db4e05084bd7e7d33774efb24c3db8fbd1579d97a45d8ac8db173da"
+    url "https://github.com/csueiras/reinforcer/releases/download/v0.7.0/reinforcer_0.7.0_Linux_x86_64.tar.gz"
+    sha256 "91c3753b3820d1de0468213c1d29be4632fb3e04b0317dff73e4a49f1ec6511b"
   end
 
   def install
