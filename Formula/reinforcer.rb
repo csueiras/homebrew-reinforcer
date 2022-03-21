@@ -6,7 +6,6 @@ class Reinforcer < Formula
   desc "Codegen tool for easy adoption of resiliency patterns in Go"
   homepage "https://github.com/csueiras/reinforcer"
   version "0.10.0"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/csueiras/reinforcer/releases/download/v0.10.0/reinforcer_0.10.0_Darwin_x86_64.tar.gz"
