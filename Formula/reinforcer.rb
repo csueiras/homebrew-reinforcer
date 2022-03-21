@@ -21,6 +21,6 @@ class Reinforcer < Formula
   end
 
   test do
-    system "#{bin}reinforcer --version"
+    system "#{bin}reinforcer", "--version"
   end
 end
